@@ -31,7 +31,7 @@ Backend: FastAPI
 DB: MySQL
 
 ## 5. Phân công công việc
-| Thành viên | Công việc chính | Timeline |
+|     Thành viên     | Công việc chính |  Timeline  |
 | Phát, Quyên, Xuyên |   Lên kế hoạch  |   Tuần 1   |
 | Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 2   |
 | Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 3   |
