@@ -18,7 +18,8 @@ Dataset sử dụng: **UCI Machine Learning Repository – Heart Disease** (ho�
 – Frontend: ReactJS  
 – Backend: Flask   
 – Tracking: wandb
-- Database: MySQL
+– Database: MySQL
+
 
 ## Cài đặt và chạy
 
