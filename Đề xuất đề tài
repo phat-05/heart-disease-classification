@@ -13,8 +13,8 @@ GVHD: Ths.Võ Việt Khoa
 
 ## 2. Đề tài chọn
 - Đề tài số : 2
-- Tên: (ví dụ: Heart Disease Clasification
-- **Loại bài toán**: Classification 
+- Tên: Heart Disease Clasification
+- Loại bài toán: Classification 
 - Dataset: Dataset:  
  + Nguồn: UCI Machine Learning Repository – Heart Disease  
  + Link: https://archive.ics.uci.edu/dataset/45/heart+disease  
@@ -27,14 +27,20 @@ Mô hình tập trung tối ưu Recall để hạn chế false negative, đồng
 ## 4. Công nghệ dự kiến
 ML: Python, sklearn, Jupyter, wandb  
 Frontend: ReactJS  
-Backend: Flask  
-**DB**: MySQL
+Backend: FastAPI 
+DB: MySQL
 
 ## 5. Phân công công việc
 | Thành viên | Công việc chính | Timeline |
-
-Notebook/ML / FE / BE / PM / Báo cáo | Tuần ... |
-
+| Phát, Quyên, Xuyên |   Lên kế hoạch  |   Tuần 1   |
+| Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 2   |
+| Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 3   |
+| Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 4   |
+| Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 5   |
+| Phát, Quyên, Xuyên |   Notebook/ML   |   Tuần 6   |
+| Phát, Quyên, Xuyên |     FE, BE      |   Tuần 7   |
+| Phát, Quyên, Xuyên | FE, BE, QA, Demo|   Tuần 8   |
+| Phát, Quyên, Xuyên | Nộp Bài, Bảo Vệ | Tuần 9, 10 |
 ## 6. Timeline
 - Tuần 1–2: Khởi động, EDA
 - Tuần 3–4: Preprocessing, Modeling
