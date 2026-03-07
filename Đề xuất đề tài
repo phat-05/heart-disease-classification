@@ -41,6 +41,7 @@ DB: MySQL
 | Phát, Quyên, Xuyên |     FE, BE      |   Tuần 7   |
 | Phát, Quyên, Xuyên | FE, BE, QA, Demo|   Tuần 8   |
 | Phát, Quyên, Xuyên | Nộp Bài, Bảo Vệ | Tuần 9, 10 |
+
 ## 6. Timeline
 - Tuần 1–2: Khởi động, EDA
 - Tuần 3–4: Preprocessing, Modeling
