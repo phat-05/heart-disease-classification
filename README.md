@@ -16,7 +16,7 @@ Dataset sử dụng: **UCI Machine Learning Repository – Heart Disease** (ho�
 ## Công nghệ
 – ML: Python, sklearn, Jupyter  
 – Frontend: ReactJS  
-– Backend: Flask
+– Backend: FastAPI
 
 – Database: MySQL
 
