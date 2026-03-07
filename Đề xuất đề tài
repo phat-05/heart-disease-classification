@@ -1,0 +1,43 @@
+# Đề Xuất Đề Tài BTL – Trí tuệ nhân tạo
+
+## 1. Thông tin nhóm
+- Nhóm: Số 14
+- Thành viên: 
+1. 2351050132 - Phạm Thành Phat 
+2. 2351050145 - Ngô Thị Thúy Quyên 
+3. 2351050209 - Phạm Thị Mỹ Xuyên 
+
+Final_Project.md
+
+GVHD: Ths.Võ Việt Khoa
+
+## 2. Đề tài chọn
+- Đề tài số : 2
+- Tên: (ví dụ: Heart Disease Clasification
+- **Loại bài toán**: Classification 
+- Dataset: Dataset:  
+ + Nguồn: UCI Machine Learning Repository – Heart Disease  
+ + Link: https://archive.ics.uci.edu/dataset/45/heart+disease  
+(hoặc Kaggle "Heart Disease UCI")
+
+## 3. Mục tiêu
+Dự án nhằm xây dựng mô hình phân loại bệnh tim dựa trên dữ liệu lâm sàng, giúp hỗ trợ chẩn đoán sớm và giảm nguy cơ bỏ sót bệnh nhân.
+Mô hình tập trung tối ưu Recall để hạn chế false negative, đồng thời duy trì Precision hợp lý nhằm đảm bảo tính tin cậy khi ứng dụng thực tế
+
+## 4. Công nghệ dự kiến
+ML: Python, sklearn, Jupyter, wandb  
+Frontend: ReactJS  
+Backend: Flask  
+**DB**: MySQL
+
+## 5. Phân công công việc
+| Thành viên | Công việc chính | Timeline |
+
+Notebook/ML / FE / BE / PM / Báo cáo | Tuần ... |
+
+## 6. Timeline
+- Tuần 1–2: Khởi động, EDA
+- Tuần 3–4: Preprocessing, Modeling
+- Tuần 5–6: Model + Persistence, wandb
+- Tuần 7–8: FE + BE, Demo, Báo cáo
+- Tuần 9–10: Nộp bài, Bảo vệ
