@@ -1,7 +1,6 @@
 # heart-disease-classification – Đề tài số 2 - Heart Disease Classification
 
 ## Mô tả
-## Mô tả
 Bệnh tim mạch là nguyên nhân tử vong hàng đầu trên thế giới. Việc chẩn đoán sớm dựa trên các chỉ số lâm sàng (tuổi, huyết áp, cholesterol, ECG, …) giúp can thiệp kịp thời và giảm nguy cơ tử vong.  
 Mục tiêu của dự án là xây dựng mô hình phân loại bệnh tim (có bệnh / không có bệnh) từ dữ liệu lâm sàng. Mô hình ưu tiên Recall cao để hạn chế bỏ sót bệnh nhân, đồng thời duy trì Precision hợp lý nhằm giảm số lượng cảnh báo sai.  
 Dataset sử dụng: **UCI Machine Learning Repository – Heart Disease** (hoặc Kaggle "Heart Disease UCI").
