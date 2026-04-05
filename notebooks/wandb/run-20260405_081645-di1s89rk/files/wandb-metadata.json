@@ -1,0 +1,41 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "3.11.9",
+  "startedAt":  "2026-04-05T01:16:45.397152Z",
+  "program":  "notebooks/project_analysis.ipynb",
+  "git":  {
+    "remote":  "https://github.com/phat-05/heart-disease-classification.git",
+    "commit":  "fd294d36132eab7e5aa76afb088a24c0f966fd37"
+  },
+  "email":  "ngoothiithuyyquyenn@gmail.com",
+  "root":  "D:\\HK2_Nam3\\AI\\BTLon\\heart-disease-classification\\notebooks",
+  "host":  "Queen",
+  "username":  "ngoot",
+  "executable":  "C:\\Users\\ngoot\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "cpu_count":  10,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce MX550",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "268434403328",
+      "used":  "49076867072"
+    }
+  },
+  "memory":  {
+    "total":  "8241897472"
+  },
+  "cpu":  {
+    "count":  10,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce MX550",
+      "memoryTotal":  "2147483648",
+      "cudaCores":  1024,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "13.0"
+}
