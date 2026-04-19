@@ -1,0 +1,152 @@
+/* Tắt chế độ CSS mặc định của trình duyệt */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Khung chứa form chính */
+.prediction-form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px; /* Bo góc */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  border-top: 5px solid #add8e6;
+}
+
+/* Tiêu đề chính */
+h1 {
+  text-align: center;
+  color: #0047ab;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Biểu tượng trái tim trong tiêu đề */
+h1 span {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+/* Tên nhóm */
+h3 {
+  text-align: center;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e1f5fe;
+  padding-bottom: 15px;
+}
+
+/* Bố cục của form */
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Bố cục của mỗi trường nhập liệu */
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cho phép label chiếm toàn bộ hàng */
+form div.full-width {
+  grid-column: span 2;
+}
+
+/* Nhãn (label) */
+label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Ô nhập liệu và ô chọn (input, select) */
+input[type="number"],
+select {
+  padding: 12px;
+  border: 1px solid #c2e9fb;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hiệu ứng khi nhấn vào ô */
+input:focus,
+select:focus {
+  border-color: #87cefa;
+  box-shadow: 0 0 5px rgba(135, 206, 250, 0.5);
+  outline: none;
+}
+
+/* Bố cục cho Checkbox */
+.checkbox-container {
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+  width: 1.2em;
+  height: 1.2em;
+}
+
+/* Nút "Dự đoán" */
+button[type="submit"] {
+  grid-column: span 2;
+  padding: 15px;
+  background-color: #87cefa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  margin-top: 10px;
+}
+
+/* Hiệu ứng khi rê chuột vào nút */
+button[type="submit"]:hover {
+  background-color: #00bfff;
+}
+
+/* Hiệu ứng khi nhấn nút */
+button[type="submit"]:active {
+  transform: scale(0.98);
+}
+
+/* Thông báo lỗi */
+.error-message {
+  color: #d32f2f;
+  text-align: center;
+  background-color: #ffcdd2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/*Chỉnh ảnh icon trước chữ tiêu đề*/
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-icon {
+  margin-right: 10px;
+}
