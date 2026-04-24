@@ -18,7 +18,7 @@ body {
 /* Khung chứa form chính */
 .prediction-form-container {
   background-color: #ffffff;
-  padding: 40px;
+  padding: 20px;
   border-radius: 15px; /* Bo góc */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -45,7 +45,7 @@ h3 {
   text-align: center;
   color: #666;
   font-weight: normal;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-bottom: 2px solid #e1f5fe;
   padding-bottom: 15px;
 }
@@ -54,7 +54,7 @@ h3 {
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Bố cục của mỗi trường nhập liệu */
@@ -78,7 +78,7 @@ label {
 /* Ô nhập liệu và ô chọn (input, select) */
 input[type="number"],
 select {
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #c2e9fb;
   border-radius: 8px;
   font-size: 1em;
@@ -117,7 +117,7 @@ button[type="submit"] {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.1s;
-  margin-top: 10px;
+
 }
 
 /* Hiệu ứng khi rê chuột vào nút */
@@ -149,4 +149,21 @@ button[type="submit"]:active {
 
 .heart-icon {
   margin-right: 10px;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #c2e9fb;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+input[type="text"]:focus {
+  border-color: #87cefa;
+  box-shadow: 0 0 5px rgba(135, 206, 250, 0.5);
+  outline: none;
 }
