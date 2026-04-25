@@ -16,22 +16,47 @@ def du_doan():
     try:
         data = request.json
 
+        print(data)
+
         bn = BenhNhan(
-            ho_ten=data.get("ho_ten", "Ẩn danh"),
+            ho_ten=data.get("fullName", "Ẩn danh"),
             tuoi=data["age"],
             gioi_tinh=data["sex"]
         )
+
+        print('OK')
+
         db.session.add(bn)
         db.session.flush()
 
+        print('OK')
+
         ts = ThongSoYTe(
             benh_nhan_id=bn.id,
-            **data
+            tuoi=data["age"],
+            gioi_tinh=data["sex"],
+            cp=data["cp"],
+            trestbps=data["trestbps"],
+            chol=data["chol"],
+            fbs=data["fbs"],
+            restecg=data["restecg"],
+            thalch=data["thalch"],
+            exang=data["exang"],
+            oldpeak=data["oldpeak"],
+            slope=data["slope"],
+            ca=data.get("ca"),
+            thal=data["thal"]
         )
+
         db.session.add(ts)
         db.session.flush()
 
         result = predict(data)
+
+        if result: 
+            print(result)
+        else:
+            print("error")
 
         kq = KetQuaChuanDoan(
             thong_so_id=ts.id,
@@ -46,6 +71,7 @@ def du_doan():
         return jsonify(result)
 
     except Exception as e:
+        print(e)
         db.session.rollback()
         return jsonify({"error": str(e)}), 500
 
@@ -93,8 +119,8 @@ def thong_ke():
 
 
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()
+    # with app.app_context():
+    #     db.create_all()
 
     print("🚀 Server chạy tại http://localhost:8000")
     app.run(debug=True, host="0.0.0.0", port=8000)

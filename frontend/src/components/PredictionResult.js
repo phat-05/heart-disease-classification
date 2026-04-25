@@ -3,6 +3,11 @@ import React from 'react';
 function PredictionResult({ result }) {
   const { prediction, probability, risk_level } = result;
 
+  console.log(result);
+  console.log(prediction);
+  console.log(probability);
+  console.log(risk_level);
+
   const riskStyles = {
     Low: { color: '#2e7d32', bgColor: '#e8f5e9', label: 'Thấp', icon: '💚' },
     Medium: { color: '#ef6c00', bgColor: '#fff3e0', label: 'Trung bình', icon: '💛' },

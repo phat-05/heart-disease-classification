@@ -9,7 +9,7 @@ def create_app():
     app = Flask(__name__)
 
     app.config["SQLALCHEMY_DATABASE_URI"] = \
-        "mysql+pymysql://root:123456@localhost/heart_disease_db?charset=utf8mb4"
+        "mysql+pymysql://root:root@localhost/heart_disease_db?charset=utf8mb4"
 
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     app.secret_key = "secret"

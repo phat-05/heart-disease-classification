@@ -59,7 +59,7 @@ function PredictionForm() {
       };
 
       const data = await predictHeartDisease(payload);
-      setResult(data);
+      setResult(data.data);
     } catch (err) {
       setError('Có lỗi xảy ra. Vui lòng kiểm tra lại kết nối server!');
     } finally {
