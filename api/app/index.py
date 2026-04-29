@@ -2,6 +2,7 @@ from flask import request, jsonify
 from app import create_app, db
 from app.models import BenhNhan, ThongSoYTe, KetQuaChuanDoan
 from app.ml.model_utils import predict
+from app.ml.custom_transformers import OutlierHandler, FeatureEngineer
 
 app = create_app()
 
