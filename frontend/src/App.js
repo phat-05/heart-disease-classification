@@ -1,21 +1,30 @@
 import React from 'react';
-import PredictionForm from './components/PredictionForm';
-// import PredictionResult from './components/PredictionResult';
-import './App.css';
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-//   // Tạo một biến chứa dữ liệu giả để test fe result
-// const testData = {
-// prediction: 0,
-// probability: 0.11,
-// risk_level: 'Low'
-//
-// };
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Prediction from './pages/Prediction';
+import History from './pages/History';
+
+function App() {
   return (
-    <div>
-      <PredictionForm />
-      {/*<PredictionResult result={testData} />*/}
-    </div>
+    <Router>
+      <div className="d-flex flex-column min-vh-100 bg-light">
+
+        <Navbar />
+
+        <main className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Prediction />} />
+
+            <Route path="/history" element={<History />} />
+          </Routes>
+        </main>
+
+        <Footer />
+
+      </div>
+    </Router>
   );
 }
 

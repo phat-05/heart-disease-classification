@@ -4,14 +4,12 @@ const API = axios.create({
   baseURL: "http://localhost:8000"
 });
 
-export const predictHeartDisease = (data) =>
-  API.post("/predict", data);
+export const getHistory = async () => {
+  const response = await API.get("/history");
+  return response;
+};
 
-export const getDanhSachBenhNhan = () =>
-  API.get("/benh-nhan");
-
-export const getLichSu = () =>
-  API.get("/lich-su");
-
-export const getThongKe = () =>
-  API.get("/thong-ke");
+export const predictHeartDisease = async (payload) => {
+  const response = await API.post("/predict", payload);
+  return response;
+};
