@@ -17,40 +17,56 @@ Dataset sử dụng: **UCI Machine Learning Repository – Heart Disease** (ho�
 ## Công nghệ
 
 – ML: Python, sklearn, Jupyter  
+
 – Frontend: ReactJS  
-– Backend: FastAPI
+
+– Backend: Flask
+
 – Database: MySQL
+
 – Tracking: wandb
 
 ## Cài đặt và chạy
 
 ### Yêu cầu
 
-– Python 3.10, Node.js (nếu dùng React)
-
+– Python 3.11, Node.js
 ### Chạy Notebook
 
+```
 jupyter notebook notebooks/project_analysis.ipynb
+```
 
 ### Chạy Backend
 
-cd api && pip install -r requirements.txt && python app.py
+```
+cd api
+pip install -r requirements.txt
+python app.py
+```
 
 ### Chạy Frontend
 
-cd frontend && npm install && npm start
+```
+cd frontend
+npm install
+npm start
+```
 
 ### Truy cập
 
 – Frontend: http://localhost:3000  
-– API: http://localhost:5000 (hoặc port tương ứng)
+
+– API: http://localhost:8000
 
 ## Demo
 
 – wandb: https://wandb.ai/phat-05/heart-disease-classification
-– Screenshot/video: [link hoặc mô tả]
+
+– Screenshot/video:
 
 ## Nộp bài
 
-– Báo cáo: report/report.pdf  
+– Báo cáo: report/report.pdf
+
 – wandb link: wandb_link.txt

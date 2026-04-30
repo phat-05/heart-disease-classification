@@ -1,0 +1,27 @@
+.bg-medical {
+  background: linear-gradient(135deg, #0052D4 0%, #4364F7 50%, #6FB1FC 100%);
+}
+
+.brand-icon {
+  background-color: white;
+  color: #d9534f; /* Màu đỏ trái tim */
+  border-radius: 50%;
+  padding: 4px 8px;
+  margin-right: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.btn-nav-highlight {
+  background-color: #ffffff;
+  color: #0052D4 !important;
+  border-radius: 20px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.btn-nav-highlight:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform: translateY(-1px);
+}
