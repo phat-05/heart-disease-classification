@@ -40,9 +40,9 @@ jupyter notebook notebooks/project_analysis.ipynb
 ### Chạy Backend
 
 ```
-cd api
 pip install -r requirements.txt
-python app.py
+cd api/app
+python index.py
 ```
 
 ### Chạy Frontend
@@ -63,7 +63,7 @@ npm start
 
 – wandb: https://wandb.ai/phat-05/heart-disease-classification
 
-– Screenshot/video:
+– Screenshot/video: https://drive.google.com/file/d/1ZzNAxLLmfIiqh8Va2H_GUfidvHUw1nll/view
 
 ## Nộp bài
 
